@@ -1,0 +1,787 @@
+﻿Group Name,Item Name,Dropdown Name,Key,Value,Type,Data
+#任务栏相关设置,#将任务栏中的Cortana调整为,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,0
+#任务栏相关设置,#将任务栏中的Cortana调整为,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,0
+#任务栏相关设置,#将任务栏中的Cortana调整为,仅显示图标,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,1
+#任务栏相关设置,#将任务栏中的Cortana调整为,仅显示图标,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,1
+#任务栏相关设置,#将任务栏中的Cortana调整为,显示搜索框,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,2
+#任务栏相关设置,#将任务栏中的Cortana调整为,显示搜索框,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,2
+#任务栏相关设置,#将任务栏中的Cortana调整为,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,0
+#任务栏相关设置,#将任务栏中的Cortana调整为,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,0
+#任务栏相关设置,#将任务栏中的Cortana调整为,仅显示图标,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,1
+#任务栏相关设置,#将任务栏中的Cortana调整为,仅显示图标,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,1
+#任务栏相关设置,#将任务栏中的Cortana调整为,显示搜索框,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,2
+#任务栏相关设置,#将任务栏中的Cortana调整为,显示搜索框,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Search,SearchboxTaskbarMode,REG_DWORD,2
+#任务栏相关设置,#隐藏“任务视图”按钮,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowTaskViewButton,REG_DWORD,0
+#任务栏相关设置,#隐藏“任务视图”按钮,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowTaskViewButton,REG_DWORD,0
+#任务栏相关设置,#隐藏“任务视图”按钮,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowTaskViewButton,REG_DWORD,1
+#任务栏相关设置,#隐藏“任务视图”按钮,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowTaskViewButton,REG_DWORD,0
+#任务栏相关设置,#隐藏“任务视图”按钮,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowTaskViewButton,REG_DWORD,0
+#任务栏相关设置,#隐藏“任务视图”按钮,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowTaskViewButton,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,HideSCAHealth,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,HideSCAHealth,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,HideSCAHealth,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,HideSCAHealth,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by 巧木）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer,DisableNotificationCenter,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by 巧木）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer,DisableNotificationCenter,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by 巧木）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Policies\Microsoft\Windows\Explorer,DisableNotificationCenter,REG_DWORD,1
+#任务栏相关设置,#隐藏操作中心任务栏托盘（by 巧木）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Policies\Microsoft\Windows\Explorer,DisableNotificationCenter,REG_DWORD,1
+#任务栏相关设置,#始终在任务栏显示所有图标和通知,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer,EnableAutoTray,REG_DWORD,0
+#任务栏相关设置,#始终在任务栏显示所有图标和通知,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer,EnableAutoTray,REG_DWORD,0
+#任务栏相关设置,#始终在任务栏显示所有图标和通知,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer,EnableAutoTray,REG_DWORD,1
+#任务栏相关设置,#始终在任务栏显示所有图标和通知,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer,EnableAutoTray,REG_DWORD,0
+#任务栏相关设置,#始终在任务栏显示所有图标和通知,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer,EnableAutoTray,REG_DWORD,0
+#任务栏相关设置,#始终在任务栏显示所有图标和通知,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer,EnableAutoTray,REG_DWORD,1
+#任务栏相关设置,#当任务栏被占满时,始终合并,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,0
+#任务栏相关设置,#当任务栏被占满时,始终合并,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,0
+#任务栏相关设置,#当任务栏被占满时,被占满时合并,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,1
+#任务栏相关设置,#当任务栏被占满时,被占满时合并,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,1
+#任务栏相关设置,#当任务栏被占满时,从不合并,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,2
+#任务栏相关设置,#当任务栏被占满时,从不合并,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,2
+#任务栏相关设置,#当任务栏被占满时,始终合并,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,0
+#任务栏相关设置,#当任务栏被占满时,始终合并,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,0
+#任务栏相关设置,#当任务栏被占满时,被占满时合并,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,1
+#任务栏相关设置,#当任务栏被占满时,被占满时合并,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,1
+#任务栏相关设置,#当任务栏被占满时,从不合并,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,2
+#任务栏相关设置,#当任务栏被占满时,从不合并,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarGlomLevel,REG_DWORD,2
+#任务栏相关设置,#锁定任务栏,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSizeMove,REG_DWORD,1
+#任务栏相关设置,#锁定任务栏,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSizeMove,REG_DWORD,0
+#任务栏相关设置,#锁定任务栏,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSizeMove,REG_DWORD,1
+#任务栏相关设置,#锁定任务栏,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSizeMove,REG_DWORD,1
+#任务栏相关设置,#锁定任务栏,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSizeMove,REG_DWORD,0
+#任务栏相关设置,#锁定任务栏,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSizeMove,REG_DWORD,1
+#任务栏相关设置,#任务栏使用小图标,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSmallIcons,REG_DWORD,1
+#任务栏相关设置,#任务栏使用小图标,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSmallIcons,REG_DWORD,1
+#任务栏相关设置,#任务栏使用小图标,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSmallIcons,REG_DWORD,0
+#任务栏相关设置,#任务栏使用小图标,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSmallIcons,REG_DWORD,1
+#任务栏相关设置,#任务栏使用小图标,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSmallIcons,REG_DWORD,1
+#任务栏相关设置,#任务栏使用小图标,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,TaskbarSmallIcons,REG_DWORD,0
+#任务栏相关设置,#隐藏任务栏上的人脉（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People,PeopleBand,REG_DWORD,0
+#任务栏相关设置,#隐藏任务栏上的人脉（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer,HidePeopleBar,REG_DWORD,1
+#任务栏相关设置,#隐藏任务栏上的人脉（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People,PeopleBand,REG_DWORD,0
+#任务栏相关设置,#隐藏任务栏上的人脉（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer,HidePeopleBar,REG_DWORD,1
+#任务栏相关设置,#隐藏任务栏上的人脉（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People,PeopleBand,REG_DWORD,0
+#任务栏相关设置,#隐藏任务栏上的人脉（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People,PeopleBand,REG_DWORD,0
+#任务栏相关设置,#*隐藏某些SATA硬盘任务栏图标（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata,DisableRemovable,REG_DWORD,1
+#任务栏相关设置,#*隐藏某些SATA硬盘任务栏图标（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata,DisableRemovable,REG_DWORD,1
+#任务栏相关设置,#*隐藏某些SATA硬盘任务栏图标（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata,DisableRemovable,REG_DWORD,0
+#任务栏相关设置,#任务栏时钟精确到秒（by Luupw3d）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSecondsInSystemClock,REG_DWORD,1
+#任务栏相关设置,#任务栏时钟精确到秒（by Luupw3d）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSecondsInSystemClock,REG_DWORD,1
+#任务栏相关设置,#任务栏时钟精确到秒（by Luupw3d）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSecondsInSystemClock,REG_DWORD,1
+#任务栏相关设置,#任务栏时钟精确到秒（by Luupw3d）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSecondsInSystemClock,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,ColorPrevalence,REG_DWORD,0
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM,ColorPrevalence,REG_DWORD,0
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\DWM,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\DWM,ColorPrevalence,REG_DWORD,1
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,ColorPrevalence,REG_DWORD,0
+#Windows主题相关设置,#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\DWM,ColorPrevalence,REG_DWORD,0
+#Windows主题相关设置,#使开始菜单、任务栏、操作中心透明,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,EnableTransparency,REG_DWORD,1
+#Windows主题相关设置,#使开始菜单、任务栏、操作中心透明,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,EnableTransparency,REG_DWORD,1
+#Windows主题相关设置,#使开始菜单、任务栏、操作中心透明,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,EnableTransparency,REG_DWORD,0
+#Windows主题相关设置,#使开始菜单、任务栏、操作中心透明,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,EnableTransparency,REG_DWORD,1
+#Windows主题相关设置,#使开始菜单、任务栏、操作中心透明,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,EnableTransparency,REG_DWORD,1
+#Windows主题相关设置,#使开始菜单、任务栏、操作中心透明,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,EnableTransparency,REG_DWORD,0
+#Windows主题相关设置,#使任务栏更透明（by 518516.net）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,UseOLEDTaskbarTransparency,REG_DWORD,1
+#Windows主题相关设置,#使任务栏更透明（by 518516.net）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,UseOLEDTaskbarTransparency,REG_DWORD,1
+#Windows主题相关设置,#优化非活动窗口标题栏颜色（by IT之家）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM,AccentColorInactive,REG_DWORD,?ColorDialog()
+#Windows主题相关设置,#优化非活动窗口标题栏颜色（by IT之家）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\DWM,AccentColorInactive,REG_DWORD,?ColorDialog()
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,低质量（更快）,HKEY_CURRENT_USER\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,96
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,低质量（更快）,HKEY_CURRENT_USER\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,96
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,默认（推荐）,HKEY_CURRENT_USER\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,96
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,默认（推荐）,HKEY_CURRENT_USER\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,256
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,高质量（更清晰）,HKEY_CURRENT_USER\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,256
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,高质量（更清晰）,HKEY_CURRENT_USER\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,256
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,低质量（更快）,HKEY_USERS\DEFAULT\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,96
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,低质量（更快）,HKEY_USERS\DEFAULT\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,96
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,默认（推荐）,HKEY_USERS\DEFAULT\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,96
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,默认（推荐）,HKEY_USERS\DEFAULT\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,256
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,高质量（更清晰）,HKEY_USERS\DEFAULT\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,256
+#Windows主题相关设置,#*桌面壁纸质量调整为（by IT之家）,高质量（更清晰）,HKEY_USERS\DEFAULT\Control Panel\Desktop,JPEGImportQuality,REG_DWORD,256
+#安全相关设置,#将用户账号控制程序（UAC）调整为,从不通知（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableLUA,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,从不通知（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,从不通知（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,从不通知（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,从不通知（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,从不通知（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableLUA,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我但不降低亮度,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我但不降低亮度,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,5
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我但不降低亮度,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,0
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我但不降低亮度,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,5
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我但不降低亮度,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableLUA,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,5
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,5
+#安全相关设置,#将用户账号控制程序（UAC）调整为,提示我（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableLUA,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,2
+#安全相关设置,#将用户账号控制程序（UAC）调整为,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,REG_DWORD,1
+#安全相关设置,#将用户账号控制程序（UAC）调整为,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,ConsentPromptBehaviorAdmin,REG_DWORD,2
+#安全相关设置,#将用户账号控制程序（UAC）调整为,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableLUA,REG_DWORD,1
+#安全相关设置,#用于内置管理员帐户的管理员批准模式 (by 坏坏小生),总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,FilterAdministratorToken,REG_DWORD,1
+#安全相关设置,#用于内置管理员帐户的管理员批准模式 (by 坏坏小生),总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,FilterAdministratorToken,REG_DWORD,1
+#安全相关设置,#关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,SmartScreenEnabled,REG_SZ,off
+#安全相关设置,#关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,SmartScreenEnabled,REG_SZ,off
+#安全相关设置,#关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,SmartScreenEnabled,REG_SZ,RequireAdmin
+#安全相关设置,#关闭Smartscreen应用筛选器（by 、Cloud）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,SmartScreenEnabled,REG_SZ,off
+#安全相关设置,#关闭Smartscreen应用筛选器（by 、Cloud）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter,EnabledV9,REG_DWORD,0
+#安全相关设置,#关闭Smartscreen应用筛选器（by 、Cloud）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,SmartScreenEnabled,REG_SZ,off
+#安全相关设置,#关闭Smartscreen应用筛选器（by 、Cloud）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter,EnabledV9,REG_DWORD,0
+#安全相关设置,#关闭Smartscreen应用筛选器（by 、Cloud）,总是提示我,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,SmartScreenEnabled,REG_SZ,RequireAdmin
+#安全相关设置,#关闭打开程序的“安全警告”（by 莫失莫忘）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Associations,ModRiskFileTypes,REG_SZ,.bat;.exe;.reg;.vbs;.chm;.msi;.js;.cmd
+#安全相关设置,#关闭打开程序的“安全警告”（by 莫失莫忘）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Associations,ModRiskFileTypes,REG_SZ,.bat;.exe;.reg;.vbs;.chm;.msi;.js;.cmd
+#安全相关设置,#关闭打开程序的“安全警告”（by 莫失莫忘）,Current/Default,HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Associations,ModRiskFileTypes,REG_SZ,.bat;.exe;.reg;.vbs;.chm;.msi;.js;.cmd
+#安全相关设置,#禁用Windows Defender（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender,DisableAntiSpyware,REG_DWORD,1
+#安全相关设置,#禁用Windows Defender（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection,DisableRealtimeMonitoring,REG_DWORD,1
+#安全相关设置,#禁用Windows Defender（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender,DisableAntiSpyware,REG_DWORD,1
+#安全相关设置,#禁用Windows Defender（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection,DisableRealtimeMonitoring,REG_DWORD,1
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SystemPaneSuggestionsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SystemPaneSuggestionsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SystemPaneSuggestionsEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SystemPaneSuggestionsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SystemPaneSuggestionsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SystemPaneSuggestionsEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议（by powerxing04）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SubscribedContent-338388Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议（by powerxing04）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SubscribedContent-338388Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议（by powerxing04）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SubscribedContent-338389Enabled,REG_DWORD,1
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议（by powerxing04）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SubscribedContent-338388Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议（by powerxing04）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SubscribedContent-338388Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#不允许在开始菜单显示建议（by powerxing04）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SubscribedContent-338389Enabled,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭在应用商店中查找关联应用（by Asoft）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoUseStoreOpenWith,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭在应用商店中查找关联应用（by Asoft）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoUseStoreOpenWith,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭商店应用推广（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,PreInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭商店应用推广（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,PreInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭商店应用推广（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,PreInstalledAppsEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭商店应用推广（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,PreInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭商店应用推广（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,PreInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭商店应用推广（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,PreInstalledAppsEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,RotatingLockScreenEnable,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,RotatingLockScreenEnable,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,RotatingLockScreenEnable,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,RotatingLockScreenEnable,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,RotatingLockScreenEnable,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,RotatingLockScreenEnable,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SoftLandingEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SoftLandingEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SoftLandingEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SoftLandingEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SoftLandingEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SoftLandingEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭“突出显示新安装的程序”（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Start_NotifyNewApps,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“突出显示新安装的程序”（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Start_NotifyNewApps,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“突出显示新安装的程序”（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Start_NotifyNewApps,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭“突出显示新安装的程序”（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Start_NotifyNewApps,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“突出显示新安装的程序”（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Start_NotifyNewApps,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭“突出显示新安装的程序”（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Start_NotifyNewApps,REG_DWORD,1
+#开始菜单以及Windows体验,#禁止自动安装推荐的应用程序（by IT之家）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SilentInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#禁止自动安装推荐的应用程序（by IT之家）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SilentInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#禁止自动安装推荐的应用程序（by IT之家）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SilentInstalledAppsEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#禁止自动安装推荐的应用程序（by IT之家）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SilentInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#禁止自动安装推荐的应用程序（by IT之家）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SilentInstalledAppsEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#禁止自动安装推荐的应用程序（by IT之家）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager,SilentInstalledAppsEnabled,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR,AppCaptureEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\System\GameConfigStore,GameDVR_Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR,AppCaptureEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_CURRENT_USER\System\GameConfigStore,GameDVR_Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR,AppCaptureEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\System\GameConfigStore,GameDVR_Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR,AppCaptureEnabled,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭游戏录制工具（by 、Cloud.）,Current/Default,HKEY_USERS\DEFAULT\System\GameConfigStore,GameDVR_Enabled,REG_DWORD,0
+#开始菜单以及Windows体验,#登录界面默认打开小键盘（by IT之家）,Current/Default,HKEY_USERS\.DEFAULT\Control Panel\Keyboard,InitialKeyboardIndicators,REG_SZ,2
+#开始菜单以及Windows体验,#登录界面默认打开小键盘（by IT之家）,Current/Default,HKEY_USERS\.DEFAULT\Control Panel\Keyboard,InitialKeyboardIndicators,REG_SZ,2
+#开始菜单以及Windows体验,#登录界面默认打开小键盘（by IT之家）,Current/Default,HKEY_USERS\.DEFAULT\Control Panel\Keyboard,InitialKeyboardIndicators,REG_SZ,2147483648
+#开始菜单以及Windows体验,#关闭OneDrive（by Rambin）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive,DisableFileSyncNGSC,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭OneDrive（by Rambin）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive,DisableFileSyncNGSC,REG_DWORD,1
+#开始菜单以及Windows体验,#关闭OneDrive（by Rambin）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive,DisableFileSyncNGSC,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭多嘴的小娜（by 朽木）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search,AllowCortana,REG_DWORD,0
+#开始菜单以及Windows体验,#关闭多嘴的小娜（by 朽木）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search,AllowCortana,REG_DWORD,0
+#开始菜单以及Windows体验,#显示首次登录动画（by intionwun & 组策略编辑器）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon,EnableFirstLogonAnimation,REG_DWORD,1
+#开始菜单以及Windows体验,#显示首次登录动画（by intionwun & 组策略编辑器）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableFirstLogonAnimation,REG_DWORD,1
+#开始菜单以及Windows体验,#显示首次登录动画（by intionwun & 组策略编辑器）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon,EnableFirstLogonAnimation,REG_DWORD,1
+#开始菜单以及Windows体验,#显示首次登录动画（by intionwun & 组策略编辑器）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon,EnableFirstLogonAnimation,REG_DWORD,0
+#Explorer,#打开资源管理器时显示此电脑,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,2
+#Explorer,#打开资源管理器时显示此电脑,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,1
+#Explorer,#打开资源管理器时显示此电脑,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,2
+#Explorer,#打开资源管理器时显示此电脑,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,2
+#Explorer,#打开资源管理器时显示此电脑,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,1
+#Explorer,#打开资源管理器时显示此电脑,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,2
+#Explorer,#显示所有文件扩展名,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,HideFileExt,REG_DWORD,0
+#Explorer,#显示所有文件扩展名,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,HideFileExt,REG_DWORD,0
+#Explorer,#显示所有文件扩展名,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,HideFileExt,REG_DWORD,1
+#Explorer,#显示所有文件扩展名,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,HideFileExt,REG_DWORD,0
+#Explorer,#显示所有文件扩展名,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,HideFileExt,REG_DWORD,0
+#Explorer,#显示所有文件扩展名,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,HideFileExt,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Hidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Hidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Hidden,REG_DWORD,2
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,REG_DWORD,0
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Hidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Hidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,REG_DWORD,1
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,Hidden,REG_DWORD,2
+#Explorer,#显示所有隐藏文件,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,REG_DWORD,0
+#Explorer,#隐藏快捷方式小箭头,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons,29,REG_EXPAND_SZ,%systemroot%\Blank.ico
+#Explorer,#隐藏可执行文件小盾牌,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons,77,REG_EXPAND_SZ,%systemroot%\Blank.ico
+#Explorer,#隐藏NTFS蓝色双箭头压缩标识（by IT之家）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons,179,REG_EXPAND_SZ,%systemroot%\Blank.ico
+#Explorer,"#创建快捷方式时不添""快捷方式""文字（by 518516.net）",Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer,Link,REG_BINARY,00000000
+#Explorer,"#创建快捷方式时不添""快捷方式""文字（by 518516.net）",Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer,Link,REG_BINARY,00000000
+#Explorer,"#创建快捷方式时不添""快捷方式""文字（by 518516.net）",Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer,Link,REG_BINARY,00000000
+#Explorer,"#创建快捷方式时不添""快捷方式""文字（by 518516.net）",Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer,Link,REG_BINARY,00000000
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag,ThisPCPolicy,REG_SZ,Hide
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag,ThisPCPolicy,REG_SZ,Show
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion,EditionID,REG_SZ,EducationN
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion,EditionID,REG_SZ,Education
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_CURRENT_USER\Control Panel\Desktop,PaintDesktopVersion,REG_DWORD,0
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_CURRENT_USER\Control Panel\Desktop,PaintDesktopVersion,REG_DWORD,0
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_CURRENT_USER\Control Panel\Desktop,PaintDesktopVersion,REG_DWORD,1
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_USERS\DEFAULT\Control Panel\Desktop,PaintDesktopVersion,REG_DWORD,0
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_USERS\DEFAULT\Control Panel\Desktop,PaintDesktopVersion,REG_DWORD,0
+#Explorer,#*隐藏桌面右下角教育版水印,Current/Default,HKEY_USERS\DEFAULT\Control Panel\Desktop,PaintDesktopVersion,REG_DWORD,1
+#Explorer,#收起资源管理器功能区（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon,MinimizedStateTabletModeOff,REG_DWORD,1
+#Explorer,#收起资源管理器功能区（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon,MinimizedStateTabletModeOff,REG_DWORD,1
+#Explorer,#收起资源管理器功能区（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon,MinimizedStateTabletModeOff,REG_DWORD,0
+#Explorer,#收起资源管理器功能区（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon,MinimizedStateTabletModeOff,REG_DWORD,1
+#Explorer,#收起资源管理器功能区（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon,MinimizedStateTabletModeOff,REG_DWORD,0
+#Explorer,#禁止自动播放（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers,DisableAutoplay,REG_DWORD,1
+#Explorer,#禁止自动播放（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers,DisableAutoplay,REG_DWORD,1
+#Explorer,#禁止自动播放（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers,DisableAutoplay,REG_DWORD,0
+#Explorer,#禁止自动播放（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers,DisableAutoplay,REG_DWORD,1
+#Explorer,#禁止自动播放（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers,DisableAutoplay,REG_DWORD,1
+#Explorer,#禁止自动播放（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers,DisableAutoplay,REG_DWORD,0
+#Explorer,#在单独的进程中打开文件夹窗口（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,SeparateProcess,REG_DWORD,1
+#Explorer,#在单独的进程中打开文件夹窗口（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,SeparateProcess,REG_DWORD,1
+#Explorer,#在单独的进程中打开文件夹窗口（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,SeparateProcess,REG_DWORD,0
+#Explorer,#在单独的进程中打开文件夹窗口（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,SeparateProcess,REG_DWORD,1
+#Explorer,#在单独的进程中打开文件夹窗口（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,SeparateProcess,REG_DWORD,1
+#Explorer,#在单独的进程中打开文件夹窗口（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,SeparateProcess,REG_DWORD,0
+#Explorer,#始终显示菜单栏（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,AlwaysShowMenus,REG_DWORD,1
+#Explorer,#始终显示菜单栏（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,AlwaysShowMenus,REG_DWORD,1
+#Explorer,#始终显示菜单栏（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,AlwaysShowMenus,REG_DWORD,0
+#Explorer,#始终显示菜单栏（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,AlwaysShowMenus,REG_DWORD,1
+#Explorer,#始终显示菜单栏（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,AlwaysShowMenus,REG_DWORD,1
+#Explorer,#始终显示菜单栏（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,AlwaysShowMenus,REG_DWORD,0
+#Explorer,#资源管理器窗口最小化时显示完整路径（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState,FullPath,REG_DWORD,1
+#Explorer,#资源管理器窗口最小化时显示完整路径（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState,FullPath,REG_DWORD,1
+#Explorer,#资源管理器窗口最小化时显示完整路径（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState,FullPath,REG_DWORD,0
+#Explorer,#资源管理器窗口最小化时显示完整路径（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CabinetState,FullPath,REG_DWORD,1
+#Explorer,#资源管理器窗口最小化时显示完整路径（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CabinetState,FullPath,REG_DWORD,1
+#Explorer,#资源管理器窗口最小化时显示完整路径（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CabinetState,FullPath,REG_DWORD,0
+#Explorer,#快速访问不显示常用文件夹（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowFrequent,REG_DWORD,0
+#Explorer,#快速访问不显示常用文件夹（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowFrequent,REG_DWORD,0
+#Explorer,#快速访问不显示常用文件夹（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowFrequent,REG_DWORD,0
+#Explorer,#快速访问不显示常用文件夹（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowFrequent,REG_DWORD,0
+#Explorer,#快速访问不显示最近使用的文件（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowRecent,REG_DWORD,0
+#Explorer,#快速访问不显示最近使用的文件（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowRecent,REG_DWORD,0
+#Explorer,#快速访问不显示最近使用的文件（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowRecent,REG_DWORD,0
+#Explorer,#快速访问不显示最近使用的文件（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer,ShowRecent,REG_DWORD,0
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar,ShowStatus,REG_DWORD,4
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar,ExtraIconsOnMinimized,REG_DWORD,0
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar,ShowStatus,REG_DWORD,4
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar,ExtraIconsOnMinimized,REG_DWORD,0
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar,ShowStatus,REG_DWORD,4
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar,ExtraIconsOnMinimized,REG_DWORD,0
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar,ShowStatus,REG_DWORD,4
+#Explorer,#将语言栏隐藏到任务栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar,ExtraIconsOnMinimized,REG_DWORD,0
+#Explorer,#隐藏语言栏上的帮助按钮（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228},DemoteLevel,REG_DWORD,3
+#Explorer,#隐藏语言栏上的帮助按钮（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228},DemoteLevel,REG_DWORD,3
+#Explorer,#隐藏语言栏上的帮助按钮（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228},DemoteLevel,REG_DWORD,3
+#Explorer,#隐藏语言栏上的帮助按钮（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228},DemoteLevel,REG_DWORD,3
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command,DelegateExecute,REG_SZ,{06622D85-6856-4460-8DE1-A81921B41C4B}
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command,DelegateExecute,REG_SZ,{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command,DelegateExecute,REG_SZ,{06622D85-6856-4460-8DE1-A81921B41C4B}
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display,ControlPanelPage,REG_SZ,Settings
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display,ControlPanelName,REG_SZ,Microsoft.Display
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command,DelegateExecute,REG_SZ,{06622D85-6856-4460-8DE1-A81921B41C4B}
+#Windows 7体验,#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command,DelegateExecute,REG_SZ,{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}
+#Windows 7体验,#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command,DelegateExecute,REG_SZ,{06622D85-6856-4460-8DE1-A81921B41C4B}
+#Windows 7体验,#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command,DelegateExecute,REG_SZ,{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}
+#Windows 7体验,#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command,DelegateExecute,REG_SZ,{06622D85-6856-4460-8DE1-A81921B41C4B}
+#Windows 7体验,#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize,ControlPanelName,REG_SZ,Microsoft.Personalization
+#Windows 7体验,#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command,DelegateExecute,REG_SZ,{06622D85-6856-4460-8DE1-A81921B41C4B}
+#Windows 7体验,#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）,Current/Default,HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command,DelegateExecute,REG_SZ,{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}
+#Windows 7体验,#将“音量调节”调整为Windows 7模式（by 溯汐潮）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MTCUVC,EnableMtcUvc,REG_DWORD,0
+#Windows 7体验,#将“音量调节”调整为Windows 7模式（by 溯汐潮）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MTCUVC,EnableMtcUvc,REG_DWORD,0
+#Windows 7体验,#将“右键菜单”调整为Windows 7模式（by Silence）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures,ImmersiveContextMenu,REG_DWORD,0
+#Windows 7体验,#将“右键菜单”调整为Windows 7模式（by Silence）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures,ImmersiveContextMenu,REG_DWORD,0
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,0
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,0
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,0
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,0
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,0
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示我的电脑（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{20D04FE0-3AEA-1069-A2D8-08002B30309D},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,0
+#桌面图标管理,#在桌面显示回收站（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,0
+#桌面图标管理,#在桌面显示回收站（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,0
+#桌面图标管理,#在桌面显示回收站（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,0
+#桌面图标管理,#在桌面显示回收站（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,0
+#桌面图标管理,#在桌面显示回收站（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示回收站（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{645FF040-5081-101B-9F08-00AA002F954E},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,0
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,0
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,0
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,0
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,0
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示控制面板（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,0
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,0
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,0
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,0
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,0
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示用户文件夹（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{59031a47-3f72-44a7-89c5-5595fe6b30ee},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,0
+#桌面图标管理,#在桌面显示网络（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,0
+#桌面图标管理,#在桌面显示网络（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,0
+#桌面图标管理,#在桌面显示网络（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,0
+#桌面图标管理,#在桌面显示网络（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,0
+#桌面图标管理,#在桌面显示网络（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示网络（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{F02C1A0D-BE21-4350-88B0-7367FC96EF3C},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,0
+#桌面图标管理,#在桌面显示库（by Rambin）,显示,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,0
+#桌面图标管理,#在桌面显示库（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,0
+#桌面图标管理,#在桌面显示库（by Rambin）,显示,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,0
+#桌面图标管理,#在桌面显示库（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,隐藏,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,显示,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,0
+#桌面图标管理,#在桌面显示库（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#桌面图标管理,#在桌面显示库（by Rambin）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel,{031E4825-7B94-4dc3-B131-E946B44C8DD5},REG_DWORD,1
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的库,隐藏,HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的库,隐藏,HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的库,隐藏,HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的库,隐藏,HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的库,隐藏,HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的库,隐藏,HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的收藏夹,隐藏,HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的收藏夹,隐藏,HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的收藏夹,隐藏,HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的收藏夹,隐藏,HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的收藏夹,隐藏,HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder,Attributes,REG_DWORD,FFBFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的收藏夹,隐藏,HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder,Attributes,REG_DWORD,FFBFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的家庭组,隐藏,HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的家庭组,隐藏,HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的家庭组,隐藏,HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的家庭组,隐藏,HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的家庭组,隐藏,HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的家庭组,隐藏,HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的网络,隐藏,HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的网络,隐藏,HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的网络,隐藏,HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的网络,隐藏,HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的网络,隐藏,HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的网络,隐藏,HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder,Attributes,REG_DWORD,100000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）,隐藏,HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder,Attributes,REG_DWORD,FFEFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder,Attributes,REG_DWORD,400000
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced,LaunchTo,REG_DWORD,1
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder,Attributes,REG_DWORD,FFBFFFFF
+#资源管理器导航窗口图标管理,#隐藏资源管理器导航窗口中的快速访问（by starP）,隐藏,HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder,Attributes,REG_DWORD,FFBFFFFF
+#Microsoft Edge,#阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge,PreventFirstRunPage,REG_DWORD,0
+#Microsoft Edge,#阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge,PreventFirstRunPage,REG_DWORD,0
+#Microsoft Edge,#关闭Adobe Flash即点即用,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security,FlashClickToRunMode,REG_DWORD,0
+#Microsoft Edge,#关闭Adobe Flash即点即用,隐藏,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security,FlashClickToRunMode,REG_DWORD,0
+Internet Explorer,#关闭多个选项卡时不发出警告（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,WarnOnClose,REG_DWORD,0
+Internet Explorer,#关闭多个选项卡时不发出警告（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,WarnOnClose,REG_DWORD,0
+Internet Explorer,#关闭多个选项卡时不发出警告（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,WarnOnClose,REG_DWORD,1
+Internet Explorer,#关闭多个选项卡时不发出警告（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,WarnOnClose,REG_DWORD,0
+Internet Explorer,#关闭多个选项卡时不发出警告（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,WarnOnClose,REG_DWORD,0
+Internet Explorer,#关闭多个选项卡时不发出警告（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,WarnOnClose,REG_DWORD,1
+Internet Explorer,#当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,OpenInForeground,REG_DWORD,1
+Internet Explorer,#当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,OpenInForeground,REG_DWORD,1
+Internet Explorer,#当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,OpenInForeground,REG_DWORD,0
+Internet Explorer,#当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,OpenInForeground,REG_DWORD,1
+Internet Explorer,#当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,OpenInForeground,REG_DWORD,1
+Internet Explorer,#当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,OpenInForeground,REG_DWORD,0
+Internet Explorer,#其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,ShortcutBehavior,REG_DWORD,1
+Internet Explorer,#其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,ShortcutBehavior,REG_DWORD,1
+Internet Explorer,#其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,ShortcutBehavior,REG_DWORD,0
+Internet Explorer,#其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,ShortcutBehavior,REG_DWORD,1
+Internet Explorer,#其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,ShortcutBehavior,REG_DWORD,1
+Internet Explorer,#其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,ShortcutBehavior,REG_DWORD,0
+Internet Explorer,#以兼容性视图中显示所有网站（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\BrowserEmulation,AllSitesCompatibilityMode,REG_DWORD,1
+Internet Explorer,#以兼容性视图中显示所有网站（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\BrowserEmulation,AllSitesCompatibilityMode,REG_DWORD,1
+Internet Explorer,#以兼容性视图中显示所有网站（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\BrowserEmulation,AllSitesCompatibilityMode,REG_DWORD,0
+Internet Explorer,#以兼容性视图中显示所有网站（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\BrowserEmulation,AllSitesCompatibilityMode,REG_DWORD,1
+Internet Explorer,#以兼容性视图中显示所有网站（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\BrowserEmulation,AllSitesCompatibilityMode,REG_DWORD,1
+Internet Explorer,#以兼容性视图中显示所有网站（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\BrowserEmulation,AllSitesCompatibilityMode,REG_DWORD,0
+Internet Explorer,#启用表单的自动完成功能（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Use FormSuggest,REG_SZ,yes
+Internet Explorer,#启用表单的自动完成功能（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Use FormSuggest,REG_SZ,yes
+Internet Explorer,#启用表单的自动完成功能（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Use FormSuggest,REG_SZ,no
+Internet Explorer,#启用表单的自动完成功能（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Use FormSuggest,REG_SZ,yes
+Internet Explorer,#启用表单的自动完成功能（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Use FormSuggest,REG_SZ,yes
+Internet Explorer,#启用表单的自动完成功能（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Use FormSuggest,REG_SZ,no
+Internet Explorer,#关闭建议的网站（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Suggested Sites,Enabled,REG_DWORD,0
+Internet Explorer,#关闭建议的网站（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Suggested Sites,Enabled,REG_DWORD,0
+Internet Explorer,#关闭建议的网站（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Suggested Sites,Enabled,REG_DWORD,1
+Internet Explorer,#关闭建议的网站（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Suggested Sites,Enabled,REG_DWORD,0
+Internet Explorer,#关闭建议的网站（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Suggested Sites,Enabled,REG_DWORD,0
+Internet Explorer,#关闭建议的网站（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Suggested Sites,Enabled,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,RunOnceHasShown,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,RunOnceComplete,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,DisableFirstRunCustomize,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,RunOnceHasShown,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,RunOnceComplete,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,DisableFirstRunCustomize,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,RunOnceHasShown,REG_DWORD,0
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,RunOnceComplete,REG_DWORD,0
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,DisableFirstRunCustomize,REG_DWORD,0
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,RunOnceHasShown,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,RunOnceComplete,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,DisableFirstRunCustomize,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,RunOnceHasShown,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,RunOnceComplete,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,DisableFirstRunCustomize,REG_DWORD,1
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,RunOnceHasShown,REG_DWORD,0
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,RunOnceComplete,REG_DWORD,0
+Internet Explorer,#跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,DisableFirstRunCustomize,REG_DWORD,0
+Internet Explorer,#不保存附件的区域信息（by 古畑任三郎）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments,SaveZoneInformation,REG_DWORD,1
+Internet Explorer,#不保存附件的区域信息（by 古畑任三郎）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments,SaveZoneInformation,REG_DWORD,1
+Internet Explorer,#不保存附件的区域信息（by 古畑任三郎）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments,SaveZoneInformation,REG_DWORD,1
+Internet Explorer,#不保存附件的区域信息（by 古畑任三郎）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments,SaveZoneInformation,REG_DWORD,1
+Internet Explorer,#启用增强保护模式,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Isolation,REG_SZ,PMEM
+Internet Explorer,#启用增强保护模式,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Isolation,REG_SZ,PMEM
+Internet Explorer,#启用增强保护模式,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Isolation,REG_SZ,PMIL
+Internet Explorer,#启用增强保护模式,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Isolation,REG_SZ,PMEM
+Internet Explorer,#启用增强保护模式,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Isolation,REG_SZ,PMEM
+Internet Explorer,#启用增强保护模式,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Isolation,REG_SZ,PMIL
+Internet Explorer,#针对增强保护模式启用64位进程,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Isolation64Bit,REG_DWORD,1
+Internet Explorer,#针对增强保护模式启用64位进程,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Isolation64Bit,REG_DWORD,1
+Internet Explorer,#针对增强保护模式启用64位进程,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,Isolation64Bit,REG_DWORD,0
+Internet Explorer,#针对增强保护模式启用64位进程,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Isolation64Bit,REG_DWORD,1
+Internet Explorer,#针对增强保护模式启用64位进程,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Isolation64Bit,REG_DWORD,1
+Internet Explorer,#针对增强保护模式启用64位进程,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,Isolation64Bit,REG_DWORD,0
+Internet Explorer,#锁定Internet Explorer工具栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar,Locked,REG_DWORD,1
+Internet Explorer,#锁定Internet Explorer工具栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar,Locked,REG_DWORD,1
+Internet Explorer,#锁定Internet Explorer工具栏（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar,Locked,REG_DWORD,0
+Internet Explorer,#锁定Internet Explorer工具栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Toolbar,Locked,REG_DWORD,1
+Internet Explorer,#锁定Internet Explorer工具栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Toolbar,Locked,REG_DWORD,1
+Internet Explorer,#锁定Internet Explorer工具栏（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Toolbar,Locked,REG_DWORD,0
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPer1_0Server,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPerServer,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPer1_0Server,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPerServer,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPer1_0Server,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPerServer,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPer1_0Server,REG_DWORD,A
+Internet Explorer,#将同时可用下载数目调整到 10（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings,MaxConnectionsPerServer,REG_DWORD,A
+Internet Explorer,#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,PopupsUseNewWindow,REG_DWORD,2
+Internet Explorer,#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing,PopupsUseNewWindow,REG_DWORD,2
+Internet Explorer,#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,PopupsUseNewWindow,REG_DWORD,2
+Internet Explorer,#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing,PopupsUseNewWindow,REG_DWORD,2
+Internet Explorer,#关闭自动更新（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,NoUpdateCheck,REG_DWORD,1
+Internet Explorer,#关闭自动更新（by 溯汐潮）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main,NoUpdateCheck,REG_DWORD,1
+Internet Explorer,#关闭自动更新（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,NoUpdateCheck,REG_DWORD,1
+Internet Explorer,#关闭自动更新（by 溯汐潮）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main,NoUpdateCheck,REG_DWORD,1
+Internet Explorer,#隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）,Current/Default,HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions,NoHelpItemSendFeedback,REG_DWORD,1
+Internet Explorer,#隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）,Current/Default,HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions,NoHelpItemSendFeedback,REG_DWORD,1
+Internet Explorer,#隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）,Current/Default,HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions,NoHelpItemSendFeedback,REG_DWORD,1
+Internet Explorer,#隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）,Current/Default,HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions,NoHelpItemSendFeedback,REG_DWORD,1
+#微软拼音输入法,#微软拼音默认为英语输入（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Default Mode,REG_DWORD,1
+#微软拼音输入法,#微软拼音默认为英语输入（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Default Mode,REG_DWORD,1
+#微软拼音输入法,#微软拼音默认为英语输入（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Default Mode,REG_DWORD,0
+#微软拼音输入法,#微软拼音默认为英语输入（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Default Mode,REG_DWORD,1
+#微软拼音输入法,#微软拼音默认为英语输入（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Default Mode,REG_DWORD,1
+#微软拼音输入法,#微软拼音默认为英语输入（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Default Mode,REG_DWORD,0
+#微软拼音输入法,#关闭微软拼音云计算（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Cloud Candidate,REG_DWORD,0
+#微软拼音输入法,#关闭微软拼音云计算（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Cloud Candidate,REG_DWORD,0
+#微软拼音输入法,#关闭微软拼音云计算（by Rambin）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Cloud Candidate,REG_DWORD,1
+#微软拼音输入法,#关闭微软拼音云计算（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Cloud Candidate,REG_DWORD,0
+#微软拼音输入法,#关闭微软拼音云计算（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Cloud Candidate,REG_DWORD,0
+#微软拼音输入法,#关闭微软拼音云计算（by Rambin）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Cloud Candidate,REG_DWORD,1
+#微软拼音输入法,#开启模糊音（by 朽木）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Fuzzy Input,REG_DWORD,1
+#微软拼音输入法,#开启模糊音（by 朽木）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Fuzzy Input,REG_DWORD,1
+#微软拼音输入法,#开启模糊音（by 朽木）,Current/Default,HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Fuzzy Input,REG_DWORD,0
+#微软拼音输入法,#开启模糊音（by 朽木）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Fuzzy Input,REG_DWORD,1
+#微软拼音输入法,#开启模糊音（by 朽木）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Fuzzy Input,REG_DWORD,1
+#微软拼音输入法,#开启模糊音（by 朽木）,Current/Default,HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\InputMethod\Settings\CHS,Enable Fuzzy Input,REG_DWORD,0
+#微软注音输入法,#默认输入模式（by iliGPU）：,中文模式,HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC,Default Input Mode,REG_DWORD,0
+#微软注音输入法,#默认输入模式（by iliGPU）：,中文模式,HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC,Default Input Mode,REG_DWORD,0
+#微软注音输入法,#默认输入模式（by iliGPU）：,英数模式,HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC,Default Input Mode,REG_DWORD,1
+#微软注音输入法,#默认输入模式（by iliGPU）：,英数模式,HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC,Default Input Mode,REG_DWORD,1
+Windows Update,#自动安装无需重启的更新（by Rambin）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AutoInstallMinorUpdates,REG_DWORD,1
+Windows Update,#自动安装无需重启的更新（by Rambin）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AutoInstallMinorUpdates,REG_DWORD,1
+Windows Update,#自动安装无需重启的更新（by Rambin）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AutoInstallMinorUpdates,REG_DWORD,0
+Windows Update,#更新挂起时如果有用户登录不自动重启计算机（by Rambin）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,NoAutoRebootWithLoggedOnUsers,REG_DWORD,1
+Windows Update,#更新挂起时如果有用户登录不自动重启计算机（by Rambin）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,NoAutoRebootWithLoggedOnUsers,REG_DWORD,1
+Windows Update,#更新挂起时如果有用户登录不自动重启计算机（by Rambin）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,NoAutoRebootWithLoggedOnUsers,REG_DWORD,0
+Windows Update,#Windows更新不包括驱动程序,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate,ExcludeWUDriversInQualityUpdate,REG_DWORD,1
+Windows Update,#Windows更新不包括驱动程序,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate,ExcludeWUDriversInQualityUpdate,REG_DWORD,1
+Windows Update,#Windows更新不包括恶意软件删除工具（by ‍Winaero）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT,DontOfferThroughWUAU,REG_DWORD,1
+Windows Update,#Windows更新不包括恶意软件删除工具（by ‍Winaero）,英数模式,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT,DontOfferThroughWUAU,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,从不检查（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,从不检查（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,从不检查（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,CachedAUOptions,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,仅检查更新,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,2
+Windows Update,#*将Windows Update自动更新调整为,仅检查更新,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,2
+Windows Update,#*将Windows Update自动更新调整为,仅检查更新,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,CachedAUOptions,REG_DWORD,2
+Windows Update,#*将Windows Update自动更新调整为,检查并下载更新,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,3
+Windows Update,#*将Windows Update自动更新调整为,检查并下载更新,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,3
+Windows Update,#*将Windows Update自动更新调整为,检查并下载更新,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,CachedAUOptions,REG_DWORD,3
+Windows Update,#*将Windows Update自动更新调整为,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,4
+Windows Update,#*将Windows Update自动更新调整为,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,AUOptions,REG_DWORD,4
+Windows Update,#*将Windows Update自动更新调整为,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update,CachedAUOptions,REG_DWORD,4
+Windows Update,#*将Windows Update自动更新调整为,从不检查（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,从不检查（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,从不检查（不推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,NoAutoUpdate,REG_DWORD,1
+Windows Update,#*将Windows Update自动更新调整为,仅检查更新,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,2
+Windows Update,#*将Windows Update自动更新调整为,仅检查更新,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,2
+Windows Update,#*将Windows Update自动更新调整为,检查并下载更新,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,3
+Windows Update,#*将Windows Update自动更新调整为,检查并下载更新,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,3
+Windows Update,#*将Windows Update自动更新调整为,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU,AUOptions,REG_DWORD,4
+Windows Update,#禁止自动更新到Internet Explorer 9,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer,svcVersion,REG_SZ,8.
+Windows Update,#禁止自动更新到Internet Explorer 9,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Setup\9.0,DoNotAllowIE90,REG_DWORD,1
+Windows Update,#禁止自动更新到Internet Explorer 9,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Setup\9.0,DoNotAllowIE90,REG_DWORD,1
+Windows Update,#禁止自动更新到Internet Explorer 10,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer,svcVersion,REG_SZ,9.
+Windows Update,#禁止自动更新到Internet Explorer 10,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer,svcVersion,REG_SZ,8.
+Windows Update,#禁止自动更新到Internet Explorer 10,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Setup\10.0,DoNotAllowIE10,REG_DWORD,1
+Windows Update,#禁止自动更新到Internet Explorer 10,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Setup\10.0,DoNotAllowIE10,REG_DWORD,1
+Windows Update,#禁止自动更新到Internet Explorer 11（by Rambin）,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer,svcVersion,REG_SZ,10.
+Windows Update,#禁止自动更新到Internet Explorer 11（by Rambin）,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer,svcVersion,REG_SZ,9.
+Windows Update,#禁止自动更新到Internet Explorer 11（by Rambin）,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer,svcVersion,REG_SZ,8.
+Windows Update,#禁止自动更新到Internet Explorer 11（by Rambin）,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Setup\11.0,DoNotAllowIE11,REG_DWORD,1
+Windows Update,#禁止自动更新到Internet Explorer 11（by Rambin）,自动安装更新（推荐）,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Setup\11.0,DoNotAllowIE11,REG_DWORD,1
+#记事本,#启用自动换行（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Notepad,fWrap,REG_DWORD,1
+#记事本,#启用自动换行（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Notepad,fWrap,REG_DWORD,1
+#记事本,#启用自动换行（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Notepad,fWrap,REG_DWORD,0
+#记事本,#启用自动换行（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Notepad,fWrap,REG_DWORD,1
+#记事本,#启用自动换行（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Notepad,fWrap,REG_DWORD,1
+#记事本,#启用自动换行（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Notepad,fWrap,REG_DWORD,0
+#记事本,#始终显示状态栏（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Notepad,StatusBar,REG_DWORD,1
+#记事本,#始终显示状态栏（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Notepad,StatusBar,REG_DWORD,1
+#记事本,#始终显示状态栏（by 一叶微风TM）,Current/Default,HKEY_CURRENT_USER\Software\Microsoft\Notepad,StatusBar,REG_DWORD,0
+#记事本,#始终显示状态栏（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Notepad,StatusBar,REG_DWORD,1
+#记事本,#始终显示状态栏（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Notepad,StatusBar,REG_DWORD,1
+#记事本,#始终显示状态栏（by 一叶微风TM）,Current/Default,HKEY_USERS\DEFAULT\Software\Microsoft\Notepad,StatusBar,REG_DWORD,0
+#网络设置,#*关闭默认共享（by 518516.net）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,AutoShareServer,REG_DWORD,0
+#网络设置,#*关闭默认共享（by 518516.net）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,AutoShareWks,REG_DWORD,0
+#网络设置,#*关闭默认共享（by 518516.net）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,AutoShareServer,REG_DWORD,0
+#网络设置,#*关闭默认共享（by 518516.net）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,AutoShareWks,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile,EnableFirewall,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile,EnableFirewall,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile,EnableFirewall,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile,EnableFirewall,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile,EnableFirewall,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile,EnableFirewall,REG_DWORD,0
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile,EnableFirewall,REG_DWORD,1
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile,EnableFirewall,REG_DWORD,1
+#网络设置,#*关闭防火墙（by 一叶微风TM）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile,EnableFirewall,REG_DWORD,1
+#网络设置,#*关闭远程协助（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Remote Assistance,fAllowToGetHelp,REG_DWORD,0
+#网络设置,#*关闭远程协助（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Remote Assistance,fAllowToGetHelp,REG_DWORD,0
+#网络设置,#*关闭远程协助（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Remote Assistance,fAllowToGetHelp,REG_DWORD,1
+#网络设置,#*禁用SMB1网络协议（by MS-PC2）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,SMB1,REG_DWORD,0
+#网络设置,#*禁用SMB1网络协议（by MS-PC2）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,SMB1,REG_DWORD,0
+#网络设置,#*禁用SMB1网络协议（by MS-PC2）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters,SMB1,REG_DWORD,1
+#服务优化,#禁用客户体验改善计划（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient\Windows,CEIPEnable,REG_DWORD,0
+#服务优化,#禁用客户体验改善计划（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient\Windows,CEIPEnable,REG_DWORD,0
+#服务优化,#禁止自动维护计划（by Lux ferre）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\ScheduledDiagnostics,EnabledExecution,REG_DWORD,0
+#服务优化,#禁止自动维护计划（by Lux ferre）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\ScheduledDiagnostics,EnabledExecution,REG_DWORD,0
+WinRAR,#锁定WinRAR工具栏（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\WinRAR\General\Toolbar,Lock,REG_DWORD,1
+WinRAR,#锁定WinRAR工具栏（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\WinRAR\General\Toolbar,Lock,REG_DWORD,1
+WinRAR,#锁定WinRAR工具栏（by 原罪）,Current/Default,HKEY_CURRENT_USER\Software\WinRAR\General\Toolbar,Lock,REG_DWORD,0
+WinRAR,#锁定WinRAR工具栏（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\General\Toolbar,Lock,REG_DWORD,1
+WinRAR,#锁定WinRAR工具栏（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\General\Toolbar,Lock,REG_DWORD,1
+WinRAR,#锁定WinRAR工具栏（by 原罪）,Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\General\Toolbar,Lock,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_CURRENT_USER\Software\WinRAR\Setup\MenuItems,EmailArc,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_CURRENT_USER\Software\WinRAR\Setup\MenuItems,EmailOpt,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_CURRENT_USER\Software\WinRAR\Setup\MenuItems,EmailArc,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_CURRENT_USER\Software\WinRAR\Setup\MenuItems,EmailOpt,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_CURRENT_USER\Software\WinRAR\Setup\MenuItems,EmailArc,REG_DWORD,1
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_CURRENT_USER\Software\WinRAR\Setup\MenuItems,EmailOpt,REG_DWORD,1
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\Setup\MenuItems,EmailArc,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\Setup\MenuItems,EmailOpt,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\Setup\MenuItems,EmailArc,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\Setup\MenuItems,EmailOpt,REG_DWORD,0
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\Setup\MenuItems,EmailArc,REG_DWORD,1
+WinRAR,"#隐藏WinRAR 在右键菜单中添加的""压缩并 E-mail...""（by 原罪）",Current/Default,HKEY_USERS\DEFAULT\Software\WinRAR\Setup\MenuItems,EmailOpt,REG_DWORD,1
+Windows Media Player,#不显示首次使用对话框（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer,GroupPrivacyAcceptance,REG_DWORD,1
+Windows Media Player,#不显示首次使用对话框（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer,GroupPrivacyAcceptance,REG_DWORD,1
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jpg,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.png,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jpeg,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.bmp,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jpe,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jfif,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.dib,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.ico,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.gif,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.tga,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jpg,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.png,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jpeg,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.bmp,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jpe,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.jfif,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.dib,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.ico,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.gif,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#Windows 照片查看器,#启用 Windows 照片查看器（by 心之所向）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations,.tga,REG_SZ,PhotoViewer.FileAssoc.Tiff
+#其他,#*隐藏Windows 10升级助手GWX,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Gwx,DisableGwx,REG_DWORD,1
+#其他,#*隐藏Windows 10升级助手GWX,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Gwx,DisableGwx,REG_DWORD,1
+#其他,#*隐藏Windows 10升级助手GWX,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Gwx,DisableGwx,REG_DWORD,0
+#其他,#*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\FsDepends\Parameters,VirtualDiskExpandOnMount,REG_DWORD,4
+#其他,#*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\FsDepends\Parameters,VirtualDiskExpandOnMount,REG_DWORD,4
+#其他,#*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\FsDepends\Parameters,VirtualDiskExpandOnMount,REG_DWORD,1
+#其他,#蓝屏时自动重启（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,AutoReboot,REG_DWORD,1
+#其他,#蓝屏时自动重启（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,AutoReboot,REG_DWORD,1
+#其他,#蓝屏时自动重启（by 原罪）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,AutoReboot,REG_DWORD,0
+#其他,#关闭快速启动,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power,HibernateEnabled,REG_DWORD,0
+#其他,#关闭快速启动,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power,HiberbootEnabled,REG_DWORD,0
+#其他,#关闭快速启动,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power,HiberbootEnabled,REG_DWORD,0
+#其他,#关闭快速启动,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power,HibernateEnabled,REG_DWORD,1
+#其他,#关闭快速启动,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power,HiberbootEnabled,REG_DWORD,1
+#其他,#关闭休眠（by powerxing04）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power,HibernateEnabled,REG_DWORD,0
+#其他,#关闭休眠（by powerxing04）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power,HibernateEnabled,REG_DWORD,0
+#其他,#关闭休眠（by powerxing04）,Current/Default,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power,HibernateEnabled,REG_DWORD,1
+#其他,#禁用组件堆栈（Component Based Servicing）日志,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing,EnableLog,REG_DWORD,0
+#其他,#禁用组件堆栈（Component Based Servicing）日志,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing,EnableLog,REG_DWORD,0
+#其他,#禁用组件堆栈（Component Based Servicing）日志,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing,EnableLog,REG_DWORD,1
+#其他,#禁用更新解压模块（Delta Package Expander）日志,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing,EnableDpxLog,REG_DWORD,0
+#其他,#禁用更新解压模块（Delta Package Expander）日志,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing,EnableDpxLog,REG_DWORD,0
+#其他,#禁用更新解压模块（Delta Package Expander）日志,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing,EnableDpxLog,REG_DWORD,1
+#其他,#禁用系统日志（by Windows 10优化辅助工具）,Current/Default,HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Windows Error Reporting,LoggingDisabled,REG_DWORD,1
+#其他,#禁用系统日志（by Windows 10优化辅助工具）,Current/Default,HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Windows Error Reporting,LoggingDisabled,REG_DWORD,1
+#其他,#禁用系统日志（by Windows 10优化辅助工具）,Current/Default,HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Windows\Windows Error Reporting,LoggingDisabled,REG_DWORD,1
+#其他,#禁用系统日志（by Windows 10优化辅助工具）,Current/Default,HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Windows\Windows Error Reporting,LoggingDisabled,REG_DWORD,1
+#其他,#禁用系统日志（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting,Disabled,REG_DWORD,1
+#其他,#禁用系统日志（by Windows 10优化辅助工具）,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting,Disabled,REG_DWORD,1
+#其他,#禁用组件堆栈（Component Based Servicing）文件备份,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration,DisableComponentBackups,REG_DWORD,1
+#其他,#禁用组件堆栈（Component Based Servicing）文件备份,Current/Default,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration,DisableComponentBackups,REG_DWORD,1
+#其他,#崩溃时写入调试信息,无,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,CrashDumpEnabled,REG_DWORD,0
+#其他,#崩溃时写入调试信息,无,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,CrashDumpEnabled,REG_DWORD,0
+#其他,#崩溃时写入调试信息,小内存转储（256KB）,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,CrashDumpEnabled,REG_DWORD,3
+#其他,#崩溃时写入调试信息,小内存转储（256KB）,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,CrashDumpEnabled,REG_DWORD,3
+#其他,#崩溃时写入调试信息,核心内存转储,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,CrashDumpEnabled,REG_DWORD,2
+#其他,#崩溃时写入调试信息,核心内存转储,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl,CrashDumpEnabled,REG_DWORD,2
+#其他,#禁用账号登录日志报告（by 溯汐潮）,核心内存转储,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon,ReportBootOk,REG_SZ,0
+#其他,#禁用账号登录日志报告（by 溯汐潮）,核心内存转储,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon,ReportBootOk,REG_SZ,0
+#其他,#禁用账号登录日志报告（by 溯汐潮）,核心内存转储,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon,ReportBootOk,REG_SZ,1
+#其他,#禁用WfpDiag.ETL日志（by powerxing04）,核心内存转储,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options,CollectNetEvents,REG_DWORD,0
+#其他,#禁用WfpDiag.ETL日志（by powerxing04）,核心内存转储,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options,CollectNetEvents,REG_DWORD,0
+#其他,Windows To Go标记(关闭以允许大版本更新)(By 玩火),核心内存转储,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control,PortableOperatingSystem,REG_DWORD,1
+#其他,Windows To Go标记(关闭以允许大版本更新)(By 玩火),核心内存转储,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control,PortableOperatingSystem,REG_DWORD,1
